@@ -1,0 +1,22 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    display: flex;
+ justify-content: center;
+    text-align: center;
+    }
+    
+    
+header img{
+    height: 300px;
+    width: 300px;
+}
+@media (max-width:370px){
+    header{
+        flex-direction: column;
+    }
+
+}
